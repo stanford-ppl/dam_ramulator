@@ -4,3 +4,11 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+dam = { git = "https://github.com/stanford-ppl/DAM-RS.git", branch = "master", default-features = false, features = [
+    "coroutines",
+    "dot",
+] }
+ramulator_wrapper = { path = "external/ramulator2_wrapper" }
+
+[build-dependencies]
+cmake = "0.1"
