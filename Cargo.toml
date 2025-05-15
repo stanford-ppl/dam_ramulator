@@ -9,6 +9,19 @@ dam = { git = "https://github.com/stanford-ppl/DAM-RS.git", branch = "master", d
     "dot",
 ] }
 ramulator_wrapper = { path = "external/ramulator2_wrapper" }
+frunk = "0.4.2"
+graphviz-rust = { version = "0.6.6", optional = true }
+csv = "1.2"
+serde = { version = "1.0", features = ["derive"] }
+linkme = "0.3.32"
+derive_more = { version = "2.0.1", features = ["full"] }
+half = "2.6.0"
+num = "0.4.3"
+fxhash = "0.2.1"
+enum_dispatch = "0.3.13"
+num-bigint = "0.4.6"
+ndarray = "0.16.1"
+thiserror = "2.0.12"
 
 [build-dependencies]
 cmake = "0.1"
